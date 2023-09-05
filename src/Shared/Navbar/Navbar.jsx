@@ -80,7 +80,7 @@ const total = cartData?.reduce((acc, current) => acc + (current.price * current.
                         <div className="d-flex">
                             <span data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
                                 className='fs-4 text-light'><BsCart></BsCart></span>
-                            <p className='text-white fs-4 posision-absolute top-2'>{cartData.length || '0'}</p>
+                            <p className='text-white fs-4 position-relative top-2'><span className='position-absolute top-0 start-100 translate-middle'>{cartData.length || '0'}</span></p>
                         </div>
 
                     </div>
