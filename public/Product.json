@@ -1,0 +1,70 @@
+[
+   
+    {
+      "id": 2,
+      "name": "Earphones",
+      "price": 49.99,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/523731a02e914d318cb4adcc00f985ba_9366/adidas_FWD-02_Sport_True_Wireless_Earbuds_Grey_EY5113_03_standard_hover.jpg",
+      "quantity": 0,
+      "details": "A stylish wristwatch with a modern design."
+    },
+    {
+      "id": 3,
+      "name": "Earphones",
+      "price": 299.99,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/9e6e7967b3b24ef298f5adcc00f983ec_9366/adidas_Z.N.E._01_ANC_True_Wireless_Earbuds_Grey_EY5115_41_detail.jpg",
+      "quantity": 0,
+      "details": "A high-end mobile phone with the latest features."
+    },
+   
+    {
+      "id": 5,
+      "name": "Handbag",
+      "price": 39.99,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/ac09bb56249b43158485aca1007cc1ef_9366/Excel_Backpack_Black_EX6933_01_standard.jpg",
+      "quantity": 0,
+      "details": "A stylish and practical handbag for any occasion."
+    },
+    {
+      "id": 6,
+      "name": "cap",
+      "price": 249.99,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/272d5d9cb7b74415a6c9ac8e015a4ccc_9366/Superlite_Hat_Black_EX7048_01_standard.jpg",
+      "quantity": 0,
+      "details": "Capture stunning photos with this high-quality digital camera."
+    },
+    {
+      "id": 7,
+      "name": "Earphones",
+      "price": 69.99,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/c697ceddb0c2469aaa2eaa7101121d10_9366/RPT-01_Sport_On-Ear_Headphones_Black_CM5015_01_standard.jpg",
+      "quantity": 0,
+      "details": "Comfortable and supportive Earphones for active lifestyles."
+    },
+
+    {
+      "id": 9,
+      "name": "bag",
+      "price": 29.99,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/ba79ccb861fd4fd49e3aac9f006a6407_9366/3-Stripes_Backpack_2.0_Grey_EX6735_01_standard.jpg",
+      "quantity": 0,
+      "details": "Stylish sunglasses to protect your eyes from the sun."
+    },
+    {
+      "id": 10,
+      "name": "Backpack",
+      "price": 34.99,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/dc7dca21df62473ea518ade101251809_9366/R.Y.V._Backpack_Black_HD9650_01_standard.jpg",
+      "quantity": 0,
+      "details": "A versatile backpack for travel and daily use."
+    },
+    {
+      "id": 11,
+      "name": "cap",
+      "price": 38.99,
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/4feb20f4d990407cb4f1a88a0040b212_9366/Relaxed_Strap-Back_Hat_Black_BH7137_01_standard.jpg",
+      "quantity": 0,
+      "details": "A versatile backpack for travel and daily use."
+    }
+  ]
+  
