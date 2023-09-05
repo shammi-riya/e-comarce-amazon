@@ -1,8 +1,27 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+#### this website  e-comarce .
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## React Router Dom v6.4 
+#### Documentation Link -> [Link](https://reactrouter.com/en/main/start/overview)
+
+
+#### liveSite -> [LiveSite](https://cute-travesseiro-a5a754.netlify.app/)
+
+## Resources & Credits
+
+####  css-> [Bootstrap css](https://getbootstrap.com/)
+####  tost -> [React tostify](https://www.npmjs.com/package/react-toastify)
+
+
+
+
+#### Icon -> [React icon](https://react-icons.github.io/react-icons/)
+
+
+#### surver -> [bakend surver](https://expressjs.com/)
+#### database -> [bakend surver](https://www.mongodb.com/)
+
+
+
