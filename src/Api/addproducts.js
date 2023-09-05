@@ -5,7 +5,7 @@ export const addProducts = async (productsdata,refetch) => {
     console.log(productsdata);
 
 
-    axios.post(`http://localhost:5000/add-cart`, productsdata)
+    axios.post(`https://amazon-surver-shammi-riya.vercel.app/add-cart`, productsdata)
         .then(data => {
             refetch()
             data.data && toast('products added succesfully!', {

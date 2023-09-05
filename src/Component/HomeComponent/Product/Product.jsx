@@ -7,10 +7,10 @@ import GetCartProducts from "../../../Api/getCartProducts";
 
 const Product = () => {
     const [productsData, setproductsData] = useState([]);
-    const [cartData,refetch] = GetCartProducts();
+    const [cartData, refetch] = GetCartProducts();
     useEffect(() => {
 
-        const apiUrl = 'http://localhost:5000/products';
+        const apiUrl = 'https://amazon-surver-shammi-riya.vercel.app/products';
 
         axios.get(apiUrl)
             .then(response => {
@@ -29,25 +29,28 @@ const Product = () => {
         delete product._id;
 
         const productsdata = {
-            _id:product._id,
+            _id: product._id,
             productname: product?.name,
-            productDetails :product?.details,
+            productDetails: product?.details,
             productQuantity: product?.quantity + 1,
-            price:product?.price,
-            productImage:product.image
+            price: product?.price,
+            productImage: product.image
 
         }
 
-        const productPostInfo={
+        const productPostInfo = {
             ...productsdata,
             productId
 
         }
 
-        addProducts(productPostInfo,refetch)
+        addProducts(productPostInfo, refetch)
 
-      }
-      
+    }
+
+
+    
+
 
 
 

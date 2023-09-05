@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 const DeleteProducts = (id,refetch) => {
 console.log(id,'del');
 
-    axios.delete(`http://localhost:5000/carts/${id}`, {
+    axios.delete(`https://amazon-surver-shammi-riya.vercel.app/carts/${id}`, {
       method: "DELETE"
     })
       .then(res => {
