@@ -10,7 +10,7 @@ const GetCartProducts = () => {
     // useEffect(()=>{
 
 
-    //     axios.get('http://localhost:5000/cart')
+    //     axios.get('https://amazon-surver-shammi-riya.vercel.app/cart')
     //     .then(data => {
     //         setCartData(data?.data)
     //     })
@@ -25,7 +25,7 @@ const GetCartProducts = () => {
         queryKey: ['my-cart'],
         queryFn: async () => {
             try {
-                const response = await fetch(`http://localhost:5000/cart`);
+                const response = await fetch(`https://amazon-surver-shammi-riya.vercel.app/cart`);
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }

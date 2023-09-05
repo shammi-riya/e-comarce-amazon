@@ -10,7 +10,7 @@ import { useEffect, useState } from 'react';
 
 const Navbar = () => {
     const [cartData,refetch] = GetCartProducts();
-  const [totalPrice,setotalPrice] = useState(null)
+  
 
     const handleIncressQuintity = (id) => {
         
@@ -43,20 +43,17 @@ const Navbar = () => {
             })
     }
 
-    useEffect(() => {
-        // Calculate the total price whenever cartData changes
-        let sum = 0;
-        cartData.forEach((cartProduct) => {
-            sum += cartProduct.price * cartProduct.productQuantity;
-        });
-        setotalPrice(sum);
-    }, [cartData]);
+    
 
 
 const handleDeleProducts=(id)=>{
     
     DeleteProducts(id,refetch)
 }
+
+
+const total = cartData?.reduce((acc, current) => acc + (current.price * current.quantity), 0);
+
 
     return (
         <div>
@@ -142,7 +139,7 @@ const handleDeleProducts=(id)=>{
 
                     </table>
 
-                    <p className='text-center'>Total price =  ${totalPrice.toFixed(2)}</p>
+                    <p className='text-center'>Total price =  ${total? total.toFixed(2) : '0.00'}</p>
                 </div>
 
 
