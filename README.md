@@ -19,7 +19,7 @@
 
 #### Icon -> [React icon](https://react-icons.github.io/react-icons/)
 
-
+#### loader -> [lodaer](https://mhnpd.github.io/react-loader-spinner/docs/intro)
 #### surver -> [bakend surver](https://expressjs.com/)
 #### database -> [bakend surver](https://www.mongodb.com/)
 
